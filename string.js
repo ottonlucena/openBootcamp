@@ -1,0 +1,10 @@
+let nombre = "Otton";
+let lastname = "Lucena";
+let student = `Estudiante ${nombre} ${lastname}`;
+let studentMayus = student.toUpperCase();
+let studentMinus = student.toLowerCase();
+let acc = student.length;
+let firt = nombre.charAt(0);
+let last = lastname.slice(-1);
+let space = student.replace(/\s+/g, "");
+let boole = student.includes(nombre);
